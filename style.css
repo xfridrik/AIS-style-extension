@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+}
+#hlavicka{
+    background-color: #00968c !important;
+}
+
+table.portal_menu td.odsazena{
+    background-color: #026881 !important;
+    color: white !important;
+}
+
+table.portal_menu td.odsazena a{
+    color: white !important;
+}
+
+table.portal_menu{
+    text-align: center !important;
+}
+
+#titulek h1{
+    background-image: none;
+    font-size: 23px !important;
+    padding-left: 1px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #026881 !important;
+    text-align: center;
+}
+
+#titulek div{
+    text-align: center !important;
+}
+
+#titulek b{
+    padding-top: 15px!important;
+    padding-bottom: 35px!important;
+    color: #026881 !important;
+}
+
+#titulek hr{
+    display: none;
+}
+
+#titulek{
+    margin-bottom: 35px !important;
+}
+
+span.small{
+    max-width: 700px;
+
+}
+
+.small{
+    width: auto !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+tr.zahlavi{
+    color: #026881 !important;
+    background-color: #eef6f8 !important;
+}
+
+a{
+    color: #026881 !important;
+}
+
+tr.sudy{
+    background-color: #eef6f8 !important;
+}
+
+#ema a, #odkazy_fakult a{
+    color: white !important;
+}
