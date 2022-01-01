@@ -1,6 +1,7 @@
 body{
     background-color: rgb(255, 255, 255) !important;
     text-align: center !important;
+    margin: 0 !important;
 }
 #hlavicka{
     background-color: #00968c !important;
@@ -76,4 +77,18 @@ tr.sudy{
 
 #ema a, #odkazy_fakult a{
     color: white !important;
+}
+
+table#tmtab_1:not(.zasadky-crit):not(.zasadky-info){
+    width:93vw;
+    min-width: 900px;
+}
+#tmtab_1 td {
+    max-width: 55px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3px !important;
+}
+#tmtab_1 th{
+    overflow: hidden;
 }
