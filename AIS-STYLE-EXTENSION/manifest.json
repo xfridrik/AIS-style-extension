@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "AIS Style+",
     "description": "Changing AIS styles for better experience",
     "version": "1.0.0",
@@ -7,8 +7,8 @@
     "content_scripts": [
         {
           "matches": ["https://is.stuba.sk/*"],
-          "css": ["style.css"]
+          "css": ["style.css"],
+          "js":["table.js"]
         }
     ]
-  
 }

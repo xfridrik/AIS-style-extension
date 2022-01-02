@@ -4,7 +4,7 @@ body{
     margin: 0 !important;
 }
 #hlavicka{
-    background-color: #00968c !important;
+    background-color: #026881 !important;
 }
 
 table.portal_menu td.odsazena{
@@ -79,16 +79,48 @@ tr.sudy{
     color: white !important;
 }
 
-table#tmtab_1:not(.zasadky-crit):not(.zasadky-info){
-    width:93vw;
-    min-width: 900px;
+
+div.ramecek-boky,div.ramecek-nahore{
+    background: none !important;
+    
 }
-#tmtab_1 td {
-    max-width: 55px;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 3px !important;
+
+div.menu-drzak{
+    background: none !important;
 }
-#tmtab_1 th{
-    overflow: hidden;
+span.sekce-nadpis{
+    z-index: 10 !important;
+    color: #ffffff !important;
+    margin-top: 5px !important;
+}
+div.ramecek-nahore{
+    background-color: #026881 !important;
+    margin: 0 !important;
+    border-radius: 0.3rem 0.3rem 0 0 !important;
+    height: 5px !important;
+}
+div.ramecek-dole{
+    display: none;
+}
+
+div.ramecek-nahore-1,div.ramecek-nahore-2,div.ramecek-dole-3,div.ramecek-dole-4{
+    display: none !important;
+}
+
+div.ramecek-boky{
+    background-color: #e4f2f5 !important;
+    border: none !important;
+    border-left: #026881 0.2px solid !important;
+    border-right: #026881 0.2px solid !important;
+    border-bottom: #026881 0.2px solid !important;
+    padding: 10px 0 !important;
+    box-shadow: inset 0px 43px 7px -5px #026881;
+    border-radius: 0 0 0.3rem 0.3rem !important;
+
+}
+
+li{
+    list-style: square !important;
+    background: none !important;
+    padding-left: 1px !important;
 }
