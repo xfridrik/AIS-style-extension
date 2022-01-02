@@ -1,14 +1,14 @@
 body{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: #393E46 !important;
     text-align: center !important;
     margin: 0 !important;
 }
 #hlavicka{
-    background-color: #026881 !important;
+    background-color: #232931 !important;
 }
 
 table.portal_menu td.odsazena{
-    background-color: #026881 !important;
+    background-color: #232931 !important;
     color: white !important;
 }
 
@@ -26,9 +26,9 @@ table.portal_menu{
     padding-left: 1px;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #ffffff !important;
+    background-color:  #393E46 !important;
     border: none !important;
-    color: #026881 !important;
+    color: #cecece !important;
     text-align: center;
 }
 
@@ -39,7 +39,10 @@ table.portal_menu{
 #titulek b{
     padding-top: 15px!important;
     padding-bottom: 35px!important;
-    color: #026881 !important;
+    color:  #cecece !important;
+}
+span{
+    color: #bdbdbd !important;
 }
 
 #titulek hr{
@@ -54,6 +57,13 @@ span.small{
     max-width: 700px;
 
 }
+p{
+    color: #cecece !important;
+}
+
+div{
+    color: white;
+}
 
 .small{
     width: auto !important;
@@ -63,16 +73,18 @@ span.small{
 }
 
 tr.zahlavi{
-    color: #026881 !important;
+    color: #232931 !important;
     background-color: #eef6f8 !important;
 }
 
 a{
-    color: #026881 !important;
+    color: #2794ee !important;
 }
-
+tr{
+    color: #dddddd;
+}
 tr.sudy{
-    background-color: #eef6f8 !important;
+    background-color: #30363d !important;
 }
 
 #ema a, #odkazy_fakult a{
@@ -90,11 +102,11 @@ div.menu-drzak{
 }
 span.sekce-nadpis{
     z-index: 10 !important;
-    color: #ffffff !important;
+    color: azure !important;
     margin-top: 5px !important;
 }
 div.ramecek-nahore{
-    background-color: #026881 !important;
+    background-color: #232931 !important;
     margin: 0 !important;
     border-radius: 0.3rem 0.3rem 0 0 !important;
     height: 5px !important;
@@ -108,19 +120,35 @@ div.ramecek-nahore-1,div.ramecek-nahore-2,div.ramecek-dole-3,div.ramecek-dole-4{
 }
 
 div.ramecek-boky{
-    background-color: #ffffff !important;
+    background-color: #30363d !important;
     border: none !important;
-    border-left: #026881 0.2px solid !important;
-    border-right: #026881 0.2px solid !important;
-    border-bottom: #026881 0.2px solid !important;
+    border-left: #232931 0.2px solid !important;
+    border-right: #232931 0.2px solid !important;
+    border-bottom: #232931 0.2px solid !important;
     padding: 10px 0 !important;
-    box-shadow: inset 0px 43px 7px -5px #026881;
+    box-shadow: inset 0px 43px 7px -5px #232931;
     border-radius: 0 0 0.3rem 0.3rem !important;
-
 }
 
 li{
     list-style: square !important;
     background: none !important;
     padding-left: 1px !important;
+}
+
+.zasadky-info{
+    border: none !important;
+    background-color: #275072 !important;
+}
+
+.zasadky-crit{
+    border: none !important;
+    background-color: #722727 !important;
+}
+
+.vyveska{
+    background-color: #1e4b3c !important;
+}
+.zasadka a{
+    color: azure !important;
 }
