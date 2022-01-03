@@ -7,17 +7,9 @@ body{
     background-color: #232931 !important;
 }
 
-table.portal_menu td.odsazena{
-    background-color: #232931 !important;
-    color: white !important;
-}
-
-table.portal_menu td.odsazena a{
-    color: white !important;
-}
-
-table.portal_menu{
-    text-align: center !important;
+#menu{
+    font-size: 14px!important;
+    background-color: #1d2127 !important;
 }
 
 #titulek h1{
@@ -57,12 +49,16 @@ span.small{
     max-width: 700px;
 
 }
+
+span.evaluate_question_ok, span.evaluate_question_ko{
+    color: black !important;
+}
 p{
     color: #cecece !important;
 }
 
 div{
-    color: white;
+    color: #eef6f8 !important;
 }
 
 .small{
@@ -78,7 +74,7 @@ tr.zahlavi{
 }
 
 a{
-    color: #2794ee !important;
+    color: rgb(67, 167, 255) !important;
 }
 tr{
     color: #dddddd;
@@ -139,11 +135,13 @@ li{
 .zasadky-info{
     border: none !important;
     background-color: #275072 !important;
+    max-width: 400px;
 }
 
 .zasadky-crit{
     border: none !important;
     background-color: #722727 !important;
+    max-width: 400px;
 }
 
 .vyveska{
@@ -151,4 +149,63 @@ li{
 }
 .zasadka a{
     color: azure !important;
+}
+
+#loginform{
+    background-color: #393E46 !important;
+}
+
+
+table.portal_menu td.odsazena{
+    background-color: #232931 !important;
+    color: white !important;
+}
+
+table.portal_menu td.odsazena a{
+    color: white !important;
+}
+
+table.portal_menu{
+    text-align: center !important;
+}
+
+table:not([style*="background-color: #F3F3F3; border-collapse: collapse; margin-bottom:20px;"]) {
+    display: block;
+    width: 100%;
+
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+
+.portal_menu td:not(.portal_menu_hole).active {
+    box-shadow: none!important;
+    min-height: 1.2rem!important;
+    display: inline-block!important;
+    border: solid 2px #2982d0!important;
+    border-radius: 8px!important;
+    margin: 0.4rem 0.2rem!important;
+}
+
+.portal_menu td:not(.portal_menu_hole) {
+    display: inline-block!important;
+    border: solid 1px lightgray!important;
+    border-radius: 8px!important;
+    min-height: 1.2rem!important;
+    box-shadow: none!important;
+    margin: 0.4rem 0.2rem!important;
+    transition: none !important;
+}
+
+.portal_menu td.portal_menu_hole {
+    display: none!important;
+}
+
+.portal_menu td:not(.portal_menu_hole):not(.active):hover {
+    cursor: pointer!important;
+    border-color: #2982d0!important;
+    min-height: 1.2rem!important;
+    transition: none !important;
 }
