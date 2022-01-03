@@ -209,3 +209,7 @@ table:not([style*="background-color: #F3F3F3; border-collapse: collapse; margin-
     min-height: 1.2rem!important;
     transition: none !important;
 }
+
+div.UISSuggestPanel{
+    background-color: #232931 !important;
+}
