@@ -55,3 +55,13 @@ Rozšírenie upravuje štýly len na stránke `https://is.stuba.sk/`, pre pridan
 7. Turn on extension by switching in right down corner (additional confirmation can show up)
 
 Extension updates styles only on `https://is.stuba.sk/`, for adding another edit `matches` in file `manifest.json`
+
+### Screenshots
+
+![Main](./screenshots/main.png?raw=true "Hlavná stránka")
+
+![Menu](./screenshots/main-menu.png?raw=true "Hlavné menu")
+
+![Portal](./screenshots/portal.png?raw=true "Portál študenta")
+
+![index](./screenshots/eindex.png?raw=true "e-index")
