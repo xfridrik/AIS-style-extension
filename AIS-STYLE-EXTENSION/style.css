@@ -83,6 +83,10 @@ tr.sudy{
     background-color: #30363d !important;
 }
 
+tr.uis-hl-table:hover{
+    background-color: #454a53 !important;
+}
+
 #ema a, #odkazy_fakult a{
     color: white !important;
 }
