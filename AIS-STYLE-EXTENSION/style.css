@@ -20,7 +20,7 @@ body{
     margin-bottom: 20px;
     background-color:  #393E46 !important;
     border: none !important;
-    color: #cecece !important;
+    color: #ececec !important;
     text-align: center;
 }
 
@@ -31,10 +31,10 @@ body{
 #titulek b{
     padding-top: 15px!important;
     padding-bottom: 35px!important;
-    color:  #cecece !important;
+    color:  #ececec !important;
 }
 span{
-    color: #bdbdbd !important;
+    color: #e3e3e3 !important;
 }
 
 #titulek hr{
@@ -54,7 +54,7 @@ span.evaluate_question_ok, span.evaluate_question_ko{
     color: black !important;
 }
 p{
-    color: #cecece !important;
+    color: #e3e3e3 !important;
 }
 
 div{
@@ -216,4 +216,73 @@ table:not([style*="background-color: #F3F3F3; border-collapse: collapse; margin-
 
 div.UISSuggestPanel{
     background-color: #232931 !important;
+}
+
+
+
+div.obsah {
+    background-color: rgb(57, 62, 70) !important;
+}
+
+th.zahlavi {
+    background-color: rgb(36 37 41) !important;
+    color: #d4dade !important;
+    box-shadow: none !important;
+    border-radius: .20rem .20rem 0 0 !important;
+    border-width: 0 !important;
+
+}
+
+
+div div select {
+    background-color: rgb(45 48 57) !important;
+    border-color: gray !important;
+    color: white !important;
+    box-shadow: none !important;
+
+}
+
+
+
+div div input {
+    background-color: rgb(36 37 41)!important;
+    color: white!important;
+    border-color: black!important;
+
+}
+
+td.zahlavi {
+    background-color: rgb(36 37 41) !important;
+    color: #d4dade !important;
+    box-shadow: none!important;
+    border-radius: .20rem .20rem 0 0!important;
+    border-width: 0!important;
+
+}
+
+td.rozvrh-cvic {
+    background-color: #17174e !important;
+    color: white!important;
+}
+
+td.rozvrh-pred {
+    background-color: #0d450a !important;
+    color: white!important;
+}
+
+
+thead td.odsazena{
+    background-color: rgb(36 37 41) !important;
+    color: #d4dade !important;
+    box-shadow: none!important;
+    border-radius: .20rem .20rem 0 0!important;
+    border-width: 0!important;
+}
+
+tr.zahlavi td.odsazena{
+    background-color: rgb(36 37 41) !important;
+    color: #d4dade !important;
+    box-shadow: none!important;
+    border-radius: .20rem .20rem 0 0!important;
+    border-width: 0!important;
 }

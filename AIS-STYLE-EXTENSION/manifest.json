@@ -2,13 +2,12 @@
     "manifest_version": 3,
     "name": "AIS Style+",
     "description": "Changing AIS styles for better experience",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "icons": { "256": "img/icon-dark.png" },
     "content_scripts": [
         {
           "matches": ["https://is.stuba.sk/*"],
-          "css": ["style.css"],
-          "js":["table.js"]
+          "css": ["style.css"]
         }
     ]
 }
