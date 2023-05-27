@@ -286,3 +286,7 @@ tr.zahlavi td.odsazena{
     border-radius: .20rem .20rem 0 0!important;
     border-width: 0!important;
 }
+
+#uisFloatingBox {
+    background: black!important;
+}
