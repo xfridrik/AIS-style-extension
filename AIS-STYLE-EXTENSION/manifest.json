@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "AIS Style+",
     "description": "Changing AIS styles for better experience",
-    "version": "1.3.0",
+    "version": "1.3.2",
     "icons": { "256": "img/icon-dark.png" },
     "content_scripts": [
         {

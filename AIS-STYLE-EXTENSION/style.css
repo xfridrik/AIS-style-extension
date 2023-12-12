@@ -290,3 +290,10 @@ tr.zahlavi td.odsazena{
 #uisFloatingBox {
     background: black!important;
 }
+
+tr:not(.zahlavi):nth-child(even of .lbn:not([style*="display: none"]):not(.hide-row):not([hidden])){
+    background-color: #353941 !important;
+}
+tr:not(.zahlavi):nth-child(even of .lbn:not([style*="display: none"]):not(.hide-row):not([hidden])):hover{
+    background-color: #454a53 !important;
+}
